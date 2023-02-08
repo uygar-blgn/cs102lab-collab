@@ -63,17 +63,17 @@ public class CustomMethods {
     }
 
     public static int arrayAv(int[] array){
-        int total = Integer.MIN_VALUE;
+        int total = 0;
 
         for(int i = 0; i < array.length; i++) {
-            total += i;
+            total += array[i];
         }
 
         return total/array.length;
     }
 
-    public static Integer[] diffAverageF(int[] array){
-        Integer[] diffAverage = new Integer[array.length];
+    public static int[] diffAverageF(int[] array){
+        int[] diffAverage = new int[array.length];
 
         for (int i = 0; i < array.length; i++){
             diffAverage[i] = array[i] - arrayAv(array);

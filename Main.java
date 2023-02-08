@@ -36,7 +36,14 @@ public class Main {
         }
 
         if (choice == 3) {
-            
+         System.out.println("Average: " + CustomMethods.arrayAv(intArray));
+         int[] averageDistances = CustomMethods.diffAverageF(intArray);
+
+         System.out.println("Distance of indexes to average: ");
+         for (int i = 0; i < averageDistances.length; i++) {
+            System.out.println("Index " + i + ": " + averageDistances[i]);
+        }
+
         }
 
         if (choice == 4) {
