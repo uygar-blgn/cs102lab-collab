@@ -37,13 +37,7 @@ public class CustomMethods {
             sum += arr[i];
         }
         return sum;
-<<<<<<< HEAD
-    
     }
-        
-=======
-    }
->>>>>>> main
     public static int[] createRandomArray(){
 
         Random random = new Random();
@@ -77,7 +71,7 @@ public class CustomMethods {
 
         return total/array.length;
     }
-    
+
     public static Integer[] diffAverageF(int[] array){
         Integer[] diffAverage = new Integer[array.length];
 
