@@ -37,13 +37,8 @@ public class CustomMethods {
             sum += arr[i];
         }
         return sum;
-<<<<<<< Updated upstream
-    }
-=======
-    
     }
         
->>>>>>> Stashed changes
     public static int[] createRandomArray(){
 
         Random random = new Random();
@@ -67,7 +62,6 @@ public class CustomMethods {
         return array;
      
     }
-<<<<<<< Updated upstream
 
     public static int arrayAv(int[] array){
         int total = Integer.MIN_VALUE;
@@ -89,6 +83,4 @@ public class CustomMethods {
         return diffAverage;
 
     }
-=======
->>>>>>> Stashed changes
 }
