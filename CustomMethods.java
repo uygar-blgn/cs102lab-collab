@@ -23,6 +23,7 @@ public class CustomMethods {
         return max;
     }
 
+
     public static int findEven(int[] arr){
         int sum = 0;
         for (int i = 0; i < arr.length; i = i + 2){
@@ -56,8 +57,6 @@ public class CustomMethods {
         {
             array[i] = random.nextInt(0, 101);
         }
-
-        input.close();
 
         return array;
      
