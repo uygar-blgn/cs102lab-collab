@@ -37,7 +37,13 @@ public class CustomMethods {
             sum += arr[i];
         }
         return sum;
+<<<<<<< HEAD
+    
     }
+        
+=======
+    }
+>>>>>>> main
     public static int[] createRandomArray(){
 
         Random random = new Random();
