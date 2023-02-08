@@ -23,7 +23,6 @@ public class CustomMethods {
         return max;
     }
 
-<<<<<<< Updated upstream
     public static int findEven(int[] arr){
         int sum = 0;
         for (int i = 0; i < arr.length; i = i + 2){
@@ -38,7 +37,9 @@ public class CustomMethods {
             sum += arr[i];
         }
         return sum;
-=======
+    
+    }
+        
     public static int[] createRandomArray(){
 
         Random random = new Random();
@@ -61,6 +62,5 @@ public class CustomMethods {
 
         return array;
      
->>>>>>> Stashed changes
     }
 }
